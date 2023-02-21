@@ -1,0 +1,37 @@
+:root {
+  --orange-color: #ffa500;
+  --header-font: Georgia, 'Times New Roman', Times, serif;
+}
+
+nav {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  background-color: var(--orange-color)
+}
+
+.header-container {
+  overflow: hidden;
+  width: 80%;
+  margin: auto;
+}
+
+.header-container a {
+  float: right;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-family: var(--header-font);
+  color: white;
+  padding: 15px 20px;
+  margin: auto;
+}
+
+.header-container a:hover {
+  color: gainsboro;
+}
+
+main {
+  width: 80%;
+  margin: auto; 
+}
