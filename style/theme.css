@@ -25,6 +25,8 @@ nav {
   color: white;
   padding: 15px 20px;
   margin: auto;
+  text-decoration: none;
+  transition-duration: 0.5s;
 }
 
 .header-container a:hover {
